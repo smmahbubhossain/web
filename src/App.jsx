@@ -9,7 +9,7 @@ const App = () => {
   const [response, setResponse] = React.useState({});
   React.useEffect(() => {
     fetch(
-      "https://api.github.com/repos/revanced-apks/build-apps/releases/latest"
+      "https://api.github.com/repos/smmahbubhossain/ReVanced-Auto-Builder/releases/latest"
     )
       .then((res) => res.json())
       .then((json) => {
@@ -50,7 +50,7 @@ const App = () => {
                 <p className="text-gray-300 font-bold">Loading...</p>
               )}
             </div>
-            <p className="text-gray-300 max-w-lg text-xs">If you are having problems with latest version of release, download previous releases from our <a href="https://t.me/revanced_apks_web">Telegram channel</a> or <a href="https://github.com/revanced-apks/build-apps/releases">GitHub releases</a>.</p>
+            <p className="text-gray-300 max-w-lg text-xs">If you are having problems with latest version of release, download previous releases from our <a href="https://t.me/rvx_pro">Telegram channel</a> or <a href="https://github.com/smmahbubhossain/ReVanced-Auto-Builder/releases">GitHub releases</a>.</p>
           </div>
           <div className="pt-5 md:pt-0 space-y-2 md:pl-5">
             <h1 className="text-2xl text-gray-200 font-extrabold underline">
@@ -99,12 +99,12 @@ const App = () => {
               This project is open source, forked from <a href="https://github.com/j-hc/revanced-magisk-module">j-hc/revanced-magisk-module</a>, check our source at{" "}
               <a
                 className="text-gray-300"
-                href="https://github.com/revanced-apks"
+                href="https://github.com/smmahbubhossain"
               >
                 GitHub
               </a>
             </p>
-            <p>Join our <a href="https://t.me/revanced_apks_web">Telegram</a> for release updates.</p>
+            <p>Join our <a href="https://t.me/rvx_pro">Telegram</a> for release updates.</p>
           </div>
         </div>
     </div>
